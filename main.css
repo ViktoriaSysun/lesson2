@@ -1,0 +1,99 @@
+.card {
+    width: 220px;
+    height: 330px;
+    color: green;
+    box-sizing: border-box;
+    padding-top: 30px;
+    border: 3px solid lightseagreen;
+}
+.fa-star {
+    font-size: 10px;
+    color: deeppink;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description > h3 {
+    text-align: center;
+}
+.description > p {
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.button-box {
+    /*margin-top: 90px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   padding: 40px;
+}
+.button-box > a {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background: forestgreen;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: center;
+    color: aqua;
+    text-decoration: none;
+}
+button {
+    color: crimson;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+}
+.xxx {
+    width: 700px;
+    display: flex;
+    background: azure;
+    height: 500px;
+   justify-content: space-around;
+}
+.container {
+    margin: 0 auto;
+    width: 500px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.header {
+    width: 500px;
+    height: 200px;
+    background: aqua;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /*margin-bottom: 15px;*/
+}
+.wrapper-box {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.box {
+    background: dodgerblue;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    align-items:center;
+    border: 2px solid blue;
+    /*margin-bottom: 15px;*/
+}
+.contact{
+    height: 200px;
+   background: aqua;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /*margin-bottom: 15px;*/
+}
